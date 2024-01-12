@@ -9,7 +9,7 @@ const HeroSection = () => {
           <span>Deliver brilliance.</span>
           <span>Smash deadlines.</span>
         </h1>
-        <button className="bg-white text-black rounded-3xl md:w-[20vw] w-[45vw] h-[7vh] text-xl">
+        <button className="bg-white text-black rounded-3xl md:w-[45vw] lg:w-[20vw] w-[45vw] h-[7vh] lg:text-xl rounded-full">
           Start creating <i className="fa-light fa-arrow-right"></i>
         </button>
       </div>
