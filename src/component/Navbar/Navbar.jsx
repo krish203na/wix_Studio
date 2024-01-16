@@ -22,7 +22,7 @@ const Navbar = () => {
           Start Creating
         </button>
         <button className="sm:hidden bg-black text-white text-xl h-full py-[2vw] px-[4.5vw]">
-          <i class="fa-thin fa-bars"></i>
+          <i className="fa-thin fa-bars"></i>
         </button>
       </div>
     </nav>

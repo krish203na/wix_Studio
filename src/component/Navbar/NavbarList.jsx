@@ -6,7 +6,7 @@ const NavbarList = () => {
       <li>
         Product{" "}
         <span>
-          <i class="fa-solid fa-angle-down"></i>
+          <i className="fa-solid fa-angle-down"></i>
         </span>
       </li>
       <li>Resources</li>
