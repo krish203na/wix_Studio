@@ -161,7 +161,7 @@ const BlowingSection = () => {
           scrollTrigger: {
             trigger: "#blow",
             scrub: true,
-            markers: true,
+            // markers: true,
             start: "top top",
             end: "=+400 top",
             pin: true,
@@ -336,7 +336,7 @@ const BlowingSection = () => {
           {/* // className="absolute flex justify-center w-[100vw] left-0 top-[10vh]" */}
           <h1
             id="blowingHeading1"
-            className="md:text-[3vw] md:my-[30px] lg:absolute lg:w-[60vw] md:w-full md:my-[3vh] m-auto lg:inline text-center transition duration-100"
+            className="md:text-[3vw] text-[7vw] leading-tight lg:absolute lg:w-[60vw] md:w-[full] w-[90%] md:my-[3vh] my-[4vh] m-auto lg:inline text-center transition duration-100"
           >
             The web creation platform built for agencies
           </h1>
@@ -356,13 +356,13 @@ const BlowingSection = () => {
           {/* <div id="blowinghero" className="flex items-center h-full opacity-1"> */}
           <div
             id="left"
-            className="lg:w-[30vw] lg:h-[80%] lg:mt-[0vh] md:-mt-[10vh] flex lg:flex-col justify-between "
+            className="lg:w-[30vw] lg:h-[80%] lg:mt-[0vh] md:-mt-[10vh] flex lg:flex-col flex-col justify-between "
           >
             <div id="leftUpper" className="w-full">
-              <h1 className="lg:text-[2.3vw] md:text-[3.5vw] leading-tight pl-[4vw] pr-[2vw] py-[4vh]">
+              <h1 className="lg:text-[2.3vw] md:text-[3.5vw] text-[3vh] leading-tight pl-[4vw] pr-[2vw] md:py-[4vh] py-[2vh]">
                 Focus on design–everything scales automatically
               </h1>
-              <p className="lg:text-[1.3vw] md:text-[1.8vw] leading-tight pl-[4vw] pr-[3vw] py-[2vh]">
+              <p className="lg:text-[1.3vw] md:text-[1.8vw] text-[2.5vh] leading-tight pl-[4vw] pr-[3vw] py-[2vh]">
                 Create freely on canvas, including in pixels, with a responsive
                 editor that optimizes designs for every screen size.
               </p>
@@ -379,9 +379,13 @@ const BlowingSection = () => {
               </div>
               <div
                 id="leftDown2"
-                className="text-base pl-[4vw] pr-[3vw] py-[2vh]"
+                className="text-base flex justify-evenly text-[5vh] pl-[4vw] pr-[3vw] py-[2vh]"
               >
-                logos
+                <i className=" fa-brands fa-figma"></i>
+                <i className=" fa-brands fa-google"></i>
+                <i className=" fa-brands fa-github"></i>
+                <i className=" fa-brands fa-node"></i>
+                <i class="fa-brands fa-vuejs"></i>
               </div>
             </div>
           </div>
@@ -433,7 +437,6 @@ const BlowingSection = () => {
           ></video>
         </div>
       </section> */}
-
     </>
   );
 };

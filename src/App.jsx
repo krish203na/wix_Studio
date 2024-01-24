@@ -33,7 +33,7 @@ function App() {
     <>
       <div
         id="mainContainer"
-        className="bg-fixed h-full w-full box-border bg-gradient-to-b from-indigo-300 from-20% via-blue-800 via-50% to-black to-70% overflow-hidden"
+        className="aspect-auto bg-fixed h-full w-full box-border bg-gradient-to-b from-indigo-300 from-20% via-blue-800 via-50% to-black to-70% overflow-hidden"
       >
         <Navbar />
         <HeroSection />

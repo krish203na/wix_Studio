@@ -13,9 +13,9 @@ const FakeScrollingSection = () => {
         gsap.to("#stopdiv", {
           scrollTrigger: {
             trigger: "#stopdiv",
-            start: "top 72%",
+            start: "top 75%",
             end: "top top",
-            markers: true,
+            // markers: true,
             pin: true,
             scrub: true,
           },
@@ -26,7 +26,7 @@ const FakeScrollingSection = () => {
   return (
     <>
       <div  className="h-full">
-      <div id="stopdiv" className="flex lg:h-[25vh] h-[20vh] w-[100vw] absolute z-20">
+      <div id="stopdiv" className="flex lg:h-[25vh] h-[20vh] w-[98.7vw] absolute z-20">
         <div className="w-[75%] bg-[#deff00] pl-[5vw] flex items-center sticky bottom-0 z-20">
           <h1 className="text-black lg:text-[6vw] text-[5vh]">Start Creating</h1>
         </div>

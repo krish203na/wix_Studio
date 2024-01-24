@@ -24,8 +24,8 @@ const HorizontalScroll = () => {
       scrollTrigger: {
         trigger: "#horScroll",
         pin: true,
-        scrub: 1,
-        markers:true,
+        scrub: 2,
+        // markers:true,
         snap: 1 / (sections.length - 1),
         // base vertical scrolling on how wide the container is so it feels more natural.
         end: "+=2000",
